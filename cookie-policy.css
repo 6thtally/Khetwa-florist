@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+  }
+  
+  h1 {
+    color: #333;
+    border-bottom: 2px solid #ca74ae;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #ca74ae;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  a:hover {
+    color: #8f527b;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul li:hover {
+    background-color: #ca74ae;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  p {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .container p strong {
+    color: #ca74ae;
+  }
+  
+  .container button {
+    background-color: #ca74ae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container button:hover {
+    background-color: #784768;
+  }
+  
+  /* Animation for fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
